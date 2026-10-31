@@ -1,0 +1,24 @@
+{
+	"schemaVersion": 1,
+	"id": "gentoo-mod",
+	"version": "${version}",
+	"name": "Gentoo Install Simulator",
+	"description": "A working terminal inside Minecraft where you install Gentoo Linux by hand: parted, stage3, chroot, emerge, kernel, grub. Progress is saved, and the achievement 'I use Gentoo, btw' waits at the end.",
+	"authors": [
+		"Me!"
+	],
+	"contact": {},
+	"license": "CC0-1.0",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.example.gentoo.GentooModClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
